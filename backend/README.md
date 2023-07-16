@@ -46,11 +46,11 @@ mysql> CREATE DATABASE shiba_nearby;
 ```
 5. Bring database up to date:
 ```
-(.venv) $ /root/of/backend/alembic $ alembic upgrade head
+(.venv) $ /root/of/backend $ python manage.py migrate
 ```
 ### Running app locally
 Run app in development mode:
 ```
-/root/of/backend $ source bin/dev.sh
-/root/of/backend $ python run.py
+/root/of/backend $
+/root/of/backend $
 ```
